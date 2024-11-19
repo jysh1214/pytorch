@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main
+      - riscv_ci_test
       - release/*
     tags:
       # NOTE: Binary build pipelines should only get triggered on release candidate or nightly builds
